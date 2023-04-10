@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.KalkulatorSaric" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="button_normal">
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="button_strange">
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="button_normal_special_instance">
+        <item name="android:layout_columnWeight">2</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="button_special">
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+</resources>

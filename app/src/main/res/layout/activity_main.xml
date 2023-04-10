@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2 + 2"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textAlignment="textEnd"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/tv_resault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/gl_input"
+        tools:text="4"
+        android:textSize="30sp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:layout_margin="10dp" />
+
+
+    <GridLayout
+        android:id="@+id/gl_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:rowCount="5"
+        android:columnCount="4">
+
+    <Button
+        android:id="@+id/btn_C"
+        style="@style/button_normal"
+        android:text="@string/c" />
+
+    <Button
+        android:id="@+id/btn_point"
+        style="@style/button_normal"
+        android:text="@string/dot"
+        />
+
+        <ImageButton
+            android:id="@+id/btn_back_space"
+            style="@style/button_strange"
+            android:background="@color/purple_500"
+            android:src="@drawable/ic_baseline_backspace_24" />
+
+    <Button
+        android:id="@+id/btn_division"
+        style="@style/button_normal"
+        android:text="@string/divide" />
+
+    <Button
+        android:id="@+id/btn_7"
+        style="@style/button_normal"
+        android:text="@string/_7" />
+
+    <Button
+        android:id="@+id/btn_8"
+        style="@style/button_normal"
+        android:text="@string/_8" />
+
+    <Button
+        android:id="@+id/btn_9"
+        style="@style/button_normal"
+        android:text="@string/_9" />
+
+    <Button
+        android:id="@+id/btn_multplay"
+        style="@style/button_normal"
+        android:text="@string/multiply" />
+
+    <Button
+        android:id="@+id/btn_4"
+        style="@style/button_normal"
+        android:text="@string/_4" />
+
+    <Button
+        android:id="@+id/btn_5"
+        style="@style/button_normal"
+        android:text="@string/_5" />
+
+    <Button
+        android:id="@+id/btn_6"
+        style="@style/button_normal"
+        android:text="@string/_6" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        style="@style/button_normal"
+        android:text="@string/minus" />
+
+    <Button
+        android:id="@+id/btn_1"
+        style="@style/button_normal"
+        android:text="@string/_1" />
+
+    <Button
+        android:id="@+id/btn_2"
+        style="@style/button_normal"
+        android:text="@string/_2" />
+
+    <Button
+        android:id="@+id/btn_3"
+        style="@style/button_normal"
+        android:text="@string/_3" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        style="@style/button_normal"
+        android:text="@string/plus" />
+
+    <Button
+        android:id="@+id/btn_0"
+        style="@style/button_special"
+        android:text="@string/_0" />
+
+    <Button
+        android:id="@+id/btn_equals"
+        style="@style/button_special"
+        android:text="@string/equals" />
+
+</GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
